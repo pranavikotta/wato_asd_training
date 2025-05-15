@@ -1,5 +1,22 @@
-.env
-__pycache__
+# ROS2 build and log files
+build/
+install/
+log/
+
+# Colcon meta
+.colcon/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# CMake files
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+
+# VS Code settings (optional)
 .vscode/
 
 watod-config.local.sh
